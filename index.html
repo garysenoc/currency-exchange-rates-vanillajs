@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="index.css"
+    />
+    <title>Document</title>
+  </head>
+  <body onload="separateData('USD')">
+    <label for="currency">Choose a Currency:</label>
+
+    <select id="currency">
+      <option
+        value="USD"
+        selected
+      >
+        USD
+      </option>
+      <option value="EUR">EUR</option>
+      <option value="AUD">AUD</option>
+      <option value="CAD">CAD</option>
+      <option value="CHF">CHF</option>
+      <option value="NZD">NZD</option>
+      <option value="BGN">BGN</option>
+    </select>
+
+    <div>
+      <h2>Group 1</h2>
+      <ul id="group1"></ul>
+    </div>
+
+    <div>
+      <h2>Group 2</h2>
+      <ul id="group2"></ul>
+    </div>
+
+    <div>
+      <h2>Group 3</h2>
+      <ul id="group3"></ul>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
+
